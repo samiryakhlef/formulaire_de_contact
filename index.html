@@ -1,14 +1,111 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <title>Formulaire</title>
 </head>
+
 <body>
-    
+    <header>
+        <!--LOGO-->
+        <img class="logo" role=logo src="image/header_logo.svg" alt="logo lander" />
+        <!-- NAVBAR-->
+        <nav class="navbar" role="navigation">
+            <ul class="nav-container">
+                <a href="#" class="nav-items" role="nos produits">Products</a>
+                <a href="#" class="nav-items" role="nos modèles">Templates</a>
+                <a href="#" class="nav-items" role="nos prix">Pricing</a>
+                <a href="#" class="nav-items" role="les ressources">Resources</a>
+                <a href="#" class="nav-items" role="notre blog">Blog</a>
+            </ul>
+        </nav>
+
+        <!--BOUTON TRIAL -->
+        <nav class="header-button">
+            <button class="btn-trial" type="submit" aria-roledescription="pérode d'essaie de 14jours">14 DAY TRIAL
+                FREE</button>
+            <button class="btn-log" type="submit" aria-roledescription="s'identifier">log in</button>
+        </nav>
+    </header>
+    <!-- CONTACT US + H2-->
+    <div class="title">
+        <h1 class="title1">contact us</h1>
+        <h2 class="title2">Our dream team of conversion specialists are looking forward to hearing from you!</h2>
+    </div>
+    <!----------------------- SECTION FORMULAIRE +SECTION RESEAU SOCIAUX---------------------->
+    <div class="section-container">
+        <!-----------------SECTION FORMULAIRE------------------------->
+        <section class="section1">
+            <h2 class="title-section">REACH OUT TO US</h2>
+            <p class=p-section>Got a question about Lander? Want to <br>
+                 partner with us? Have some suggestions <br>
+                  or just want to say “Hi”? Contact Us:</p>
+            <form action="" class="form">
+                <label for="prenom">
+                    <input type="text" name="prenom" id="prenom" class="form-items" placeholder="Prénom"
+                        autocomplete="on" role="">
+                </label>
+                <label for="nom">
+                    <input type="text" name="nom" id="nom" class="form-items" placeholder="nom de famille"
+                        autocomplete="on" role="nom de famille">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" class="form-items" placeholder="email" autocomplete="on"
+                        role="entrer votre email">
+                </label>
+                <label for="number">
+                    <input type="number" name="number" id="number" class="form-items" placeholder="Numero de telephone"
+                        autocomplete="on" role="">
+                </label>
+                <label for="message">
+                    <textarea name="message" id="message" class="form-items" cols="30" rows="10"
+                        placeholder="message"></textarea>
+                </label>
+
+            </form>
+            <label for="button">
+                <input type="button" value="soumettre">
+            </label>
+        </section>
+        <!-------------------SECTION 2----------------------->
+        <section class="section2">
+            <div class="title-section2">
+                <h2 class="title-section">LANDER TEAM
+                </h2>
+                <p class="p-section">Not sure where to start? Need help adding that <br>
+                    extra mojo to your landing page? Visit<br><a href="#" target="_blank">our Help
+                        Center</a> or get in touch with us: </p>
+            </div class="social">
+            <h3>Other ways to connect
+            </h3>
+            <div class="txt-social">
+            <img class="icon-social" src="image/social-facebook.svg" alt="logo Facebook">
+            <p class="txt-social">Be the first on your block to get <br> product updates, announcements,<br> news and
+                lots of really good content,<br>
+                like us on Facebook today! </p>
+            </div>
+                <div class="txt-social">
+            <img class="icon-social" src="image/social-twitter.svg" alt="logo Twitter">
+            <p class="txt-social">Want the best tips on conversion <br> optimization, landing pages, content <br>
+                marketing, SEO & SEM? Then follow <br>
+                us on Twitter at @landerapp</a> </p>
+            </div>
+                <div class="txt-social">
+            <img class="icon-social" src="image/social-linkedin.svg" alt="logo LinkedIn">
+            
+            <p class="txt-social">Suivez-nous sur LinkedInto get the <br>
+                latest updates, news and information <br>
+                about us and also check our weekly <br>
+                blog updates!
+            </p>
+        </div>
+        </section>
+    </div>
 </body>
+
 </html>

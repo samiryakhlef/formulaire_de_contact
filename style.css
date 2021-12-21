@@ -1,5 +1,146 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*..............HEADER..................*/
+header {
+  background-color: #f18e59;
+  display: flex;
+  width: 100%;
+  height: 6em;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0.6em;
+}
+/*..............LOGO...........*/
+.logo {
+  padding-bottom: 1.5em;
+}
+/*..............NAVIGATION + NAV-ITEMS.......*/
+.nav-items {
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+/*..............BOUTON LOG IN + TRIAL.....*/
+.btn-trial {
+  background-color: rgb(2, 32, 47);
+  color: #fff;
+  padding: 0.9375rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-log {
+  color: #fff;
+  margin: 0 2px;
+  padding: 15px 32px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background-color: #f18e59;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*..............DIV BLOCK TITLE..........*/
+.title {
+  background-color: rgb(241, 142, 89);
+  width: 100%;
+  height: 15.2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/*..............TITLE1 = H1.......*/
+.title1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+}
+/*..............TITLE2 = H2......*/
+.title2 {
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+/*.............................SECTION......................*/
+.section-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.section1, .section2{
+   padding:0 70px;
+}
+.title-section {
+  text-transform: uppercase;
+  font-size: 1.9em;
+  color: #5bb5de;
+  font-weight: 600;
+  padding-top: 5.1875em;
+}
+.p-section {
+  line-height: 140%;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+h3 {
+    font-weight: 400;
+    font-size: 1.75em;
+    margin-top: 70px;
+    padding: 20px 0 0 0;
+}
+/*.............................SECTION1......................*/
+.section1 .form {
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  padding: 0 3em 0 0;
+}
+label {
+  margin: 0.75em;
+}
+.form-items {
+  font: 300 1em/1.35rem;
+  color: #7f8c97;
+  padding: 0.6rem 0.8rem;
+  background: #fff;
+  margin: 0;
+  width: 100%;
+  border-radius: 0.4rem;
+  font-style: italic;
+  border: 1px solid lightgray;
+}
+/*..............SECTION2 *********************************/
+.section2 {
+ 
+
+}
+.title-section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/*........................IMAGE SOCIAL + TEXT...........*/
+.social {
+  display: flex;
+}
+.icon-social {
+  width: 70px;
+}
+.txt-social {
+  line-height: 140%;
+  font-size: 1.2em;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0 20px 10px; ;
 }
