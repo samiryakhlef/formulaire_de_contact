@@ -34,7 +34,7 @@ header {
   color: #fff;
   padding: 0.9375rem 2rem;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: none;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -127,7 +127,7 @@ label {
   width: 100%;
   border-radius: 0.4rem;
   font-style: italic;
-  border: 1px solid lightgray;
+  border: 0.5px solid lightgray;
 }
 .btn-form {
   display: flex;
@@ -139,9 +139,9 @@ label {
   background-color: #f18e59;
   color: #fff;
   margin-top: 1em;
-  padding: 1.3rem 1.5rem 1.3rem;
+  padding: 1.3rem 2em 1.3rem;
   border-radius: 5px;
-  border: 1px solid;
+  border: none;
   text-transform: uppercase;
   font-size: 80%;
   line-height: 80%;
@@ -173,9 +173,74 @@ label {
 }
 
 /*..............FOOTER ...........................*/
-footer {
+.footer {
   background-color: #333;
   width: 100%;
-  height: 100em; /* auto*/
+  height: auto;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+}
+.list {
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.6rem;
+  padding: 0 30px;
+}
+.list-items-footer {
+  list-style-type: none;
+  color: #fff;
+}
+.list-items {
+  list-style-type: none;
+  color: #fff;
+}
+.social-icon-items {
+  list-style-type: none;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+.list-items a,
+.p-footer {
+  color: rgba(211, 211, 211, 0.472);
+  list-style-type: none;
+  text-decoration: none;
+}
+.social-media {
+  list-style-type: none;
+  font-size: 25px;
+}
+.btn-landing-page {
+  list-style-type: none;
+}
+.btn-landing-page-items {
+  background-color: rgb(2, 32, 47);
+  margin: 1.7em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.9375rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/********************************copyright ********************************/
+.copyright {
+  width: 100%;
+  line-height: 2.5em;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+}
+.copyright-txt {
+  padding: 0 10px;
+  margin: 0 auto;
+  color: #fff;
+}
+.terms {
+  text-decoration: none;
+  color: #f18e59;
 }
